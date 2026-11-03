@@ -1,0 +1,105 @@
+
+/* Global settings */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #171D23;
+    color: #F3EFE6;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 6%;
+    border-bottom: 1px solid #45505A;
+}
+
+.logo {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links a {
+    color: #F3EFE6;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.nav-links a:hover {
+    color: #B59B72;
+}
+
+/* Hero section */
+.hero {
+    padding: 120px 8%;
+    max-width: 1100px;
+}
+
+.eyebrow {
+    color: #B59B72;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 7vw, 86px);
+    margin: 25px 0;
+}
+
+.hero h2 {
+    font-weight: normal;
+    color: #C9C4BC;
+    font-size: 23px;
+}
+
+.hero p {
+    color: #C9C4BC;
+    line-height: 1.8;
+    max-width: 650px;
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #A5483C;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #87382F;
+}
+
+/* Small screens */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+    }
+
+    .hero {
+        padding: 70px 7%;
+    }
+}
