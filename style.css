@@ -165,3 +165,56 @@ img {
     }
 }
 
+/* Soft Editorial Theme */
+
+body {
+    background-color: #F8FAFC;
+    color: #344F66;
+}
+
+.navbar {
+    background-color: #F8FAFC;
+}
+
+.logo,
+.nav-links a {
+    color: #344F66;
+}
+
+.hero {
+    background: linear-gradient(
+        135deg,
+        #F8FAFC 0%,
+        #E8F0F5 55%,
+        #C5D8E5 100%
+    );
+    color: #344F66;
+}
+
+.hero h1,
+.hero h2,
+.content-section h2 {
+    color: #344F66;
+}
+
+.hero p,
+.content-section p {
+    color: #425E73;
+}
+
+.eyebrow,
+.section-label {
+    color: #526F86;
+}
+
+.nav-links a:hover {
+    color: #526F86;
+}
+
+/* Keyboard accessibility */
+a:focus-visible {
+    outline: 3px solid #526F86;
+    outline-offset: 4px;
+}
+
+
