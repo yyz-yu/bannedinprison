@@ -1,29 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Beyond the Bookshelf</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    
+    <!-- 1. Navigation Bar -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="logo">BEYOND THE BOOKSHELF</div>
 
+        <div class="nav-links">
+            <a href="index.html" aria-current="page">HOME</a>
+            <a href="map.html">MAP</a>
+            <a href="patterns.html">DATA</a>
+            <a href="timeline.html">TIMELINE</a>
+            <a href="analysis.html">ANALYSIS</a>
+            <a href="resources.html">RESOURCES</a>
+        </div>
+    </nav>
 
-    <!-- Hero Section -->
+    <!-- 2. Main Content -->
     <main>
-        <section class="hero">
 
+        <!-- Hero Section -->
+        <section class="hero">
 
             <h1>Beyond the Bookshelf</h1>
 
             <h2>
                 Prison Book Censorship Across
-                18 U.S. States
+                U.S. States
             </h2>
 
             <p>
@@ -34,61 +46,63 @@
                 American prisons.
             </p>
 
-            <a href="map.html" class="button">
+            <a href="#explore" class="button">
                 EXPLORE THE RESEARCH
             </a>
 
         </section>
+
+        <!-- 3. Research Cards -->
+        <section class="content-section" id="explore">
+
+            <p class="section-label">
+                02 — EXPLORE OUR RESEARCH
+            </p>
+
+            <h2>Explore the Project</h2>
+
+            <div class="research-grid">
+
+                <a class="research-card" href="map.html">
+                    <span class="card-number">01 / GEOGRAPHY</span>
+                    <h3>Geographic Patterns</h3>
+                    <p>
+                        Explore prison book censorship
+                        records across states.
+                    </p>
+                </a>
+
+                <a class="research-card" href="patterns.html">
+                    <span class="card-number">02 / DATA</span>
+                    <h3>Data &amp; Patterns</h3>
+                    <p>
+                        Discover trends in the
+                        available data.
+                    </p>
+                </a>
+
+                <a class="research-card" href="timeline.html">
+                    <span class="card-number">03 / HISTORY</span>
+                    <h3>Historical Context</h3>
+                    <p>
+                        Examine records across time.
+                    </p>
+                </a>
+
+                <a class="research-card" href="analysis.html">
+                    <span class="card-number">04 / ANALYSIS</span>
+                    <h3>Research &amp; Analysis</h3>
+                    <p>
+                        Understand the broader
+                        implications.
+                    </p>
+                </a>
+
+            </div>
+
+        </section>
+
     </main>
 
 </body>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="logo">BEYOND THE BOOKSHELF</div>
-
-        <div class="nav-links">
-            <a href="index.html">HOME</a>
-            <a href="map.html">MAP</a>
-            <a href="patterns.html">DATA</a>
-            <a href="timeline.html">TIMELINE</a>
-            <a href="analysis.html">ANALYSIS</a>
-            <a href="resources.html">RESOURCES</a>
-        </div>
-    </nav>
-
-    
-<section class="content-section" id="explore">
-    <p class="section-label">02 — EXPLORE OUR RESEARCH</p>
-    <h2>Explore the Project</h2>
-
-    <div class="research-grid">
-        <a class="research-card" href="map.html">
-            <span class="card-number">01 / GEOGRAPHY</span>
-            <h3>Geographic Patterns</h3>
-            <p>Explore prison book censorship records across states.</p>
-            
-        </a>
-
-        <a class="research-card" href="patterns.html">
-            <span class="card-number">02 / DATA</span>
-            <h3>Data &amp; Patterns</h3>
-            <p>Discover trends in the available data.</p>
-           
-        </a>
-
-        <a class="research-card" href="timeline.html">
-            <span class="card-number">03 / HISTORY</span>
-            <h3>Historical Context</h3>
-            <p>Examine records across time.</p>
-        </a>
-
-        <a class="research-card" href="analysis.html">
-            <span class="card-number">04 / ANALYSIS</span>
-            <h3>Research &amp; Analysis</h3>
-            <p>Understand the broader implications.</p>
-            
-        </a>
-    </div>
-</section>
 </html>
